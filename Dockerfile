@@ -1,6 +1,10 @@
 # our base image
 FROM node:alpine
 
+# team
+MAINTAINER Chris Knight <https://github.com/devfubar>
+MAINTAINER Kostas Kapenekakis <https://github.com/ultim8k>
+
 # install bash git ssh zip unzip curl less python3
 RUN apk add --update --no-cache bash git openssh zip unzip curl less python3
 
